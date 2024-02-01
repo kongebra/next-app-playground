@@ -5,6 +5,7 @@ import { GlobalNav } from '#/ui/global-nav';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
+  metadataBase: new URL("/"),
   title: {
     default: 'Next.js App Router',
     template: '%s | Next.js App Router',
